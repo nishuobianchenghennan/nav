@@ -102,7 +102,7 @@ sGitHub.onclick= function () {
 
 //Gitee
 sGitee.onclick = function () {
-    p='https://gitee.com/search?utf8=✓&search=';
+    p='https://so.gitee.com/?q=';
     n='';
     s='https://gitee.com/'
     doAction(p,n,s);

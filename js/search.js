@@ -11,7 +11,6 @@ const sYouTube = document.getElementById('youtube')
 const sBilibili = document.getElementById("bilibili");
 const sYingshi = document.getElementById("yingshi");
 const sWangpan = document.getElementById("wangpan");
-const sBt = document.getElementById("bt");
 const sFanyi = document.getElementById("fanyi");
 const sBijia = document.getElementById("bijia");
 
@@ -160,13 +159,6 @@ sWangpan.onclick = function () {
     doAction(p,n,s);
 }
 
-//BT
-sBt.onclick = function () {
-    p='https://www.bturl.cc/search/';
-    n='_ctime_1.html';
-    s='https://www.bturl.cc'
-    doAction(p,n,s);
-}
 
 //翻译
 sFanyi.onclick = function (){

@@ -6,7 +6,6 @@ const sGitHub = document.getElementById("github");
 const sGitee = document.getElementById("gitee");
 const sZhihu = document.getElementById('zhihu');
 const sWjbk = document.getElementById('weiji');
-const sTaoBao = document.getElementById('taobao');
 const sYouTube = document.getElementById('youtube')
 const sBilibili = document.getElementById("bilibili");
 const sGugexueshu = document.getElementById("gugexueshu");
@@ -123,13 +122,6 @@ sWjbk.onclick = function () {
     s='https://zh.wikipedia.org/'
     doAction(p,n,s);
 }
-//TaoBao
-sTaoBao.onclick =function () {
-    p='https://s.taobao.com/search?q=';
-    n='&taoke_type=1';
-    s='https://s.taobao.com/';
-    doAction(p,n,s);
-}
 
 //YouTube
 sYouTube.onclick =function () {
@@ -164,7 +156,7 @@ sZhongguozhiwang.onclick = function () {
 sShuyuzaixian.onclick = function () {
     p='https://www.termonline.cn/search?searchText=';
     n='';
-    s='https://www.termonline.cn/'
+    s='https://www.termonline.cn/';
     doAction(p,n,s);
 }
 
@@ -172,7 +164,7 @@ sShuyuzaixian.onclick = function () {
 s52pojie.onclick = function () {
     p='https://www.bing.com/search?q=site%3A52pojie.cn%20';
     n='';
-    s='https://www.bing.com/search?q=site%3A52pojie.cn%20'
+    s='https://www.bing.com/search?q=site%3A52pojie.cn%20';
     doAction(p,n,s);
 }
 

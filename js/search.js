@@ -11,6 +11,7 @@ const sYouTube = document.getElementById('youtube')
 const sBilibili = document.getElementById("bilibili");
 const sGugexueshu = document.getElementById("gugexueshu");
 const sZhongguozhiwang = document.getElementById("zhongguozhiwang");
+const sShuyuzaixian = document.getELementById("shuyuzaixian")
 const s52pojie = document.getElementById("52pojie");
 const sFanyi = document.getElementById("fanyi");
 const sBijia = document.getElementById("bijia");
@@ -157,6 +158,13 @@ sZhongguozhiwang.onclick = function () {
     p='https://scholar.cnki.net/home/search?sw=1&sw-input=';
     n='';
     s='https://scholar.cnki.net/'
+    doAction(p,n,s);
+}
+//shuyuzaixian
+sShuyuzaixian.onclick = function () {
+    p='https://www.termonline.cn/search?searchText=';
+    n='';
+    s='https://www.termonline.cn/'
     doAction(p,n,s);
 }
 

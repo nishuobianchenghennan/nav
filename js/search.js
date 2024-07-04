@@ -9,8 +9,9 @@ const sWjbk = document.getElementById('weiji');
 const sTaoBao = document.getElementById('taobao');
 const sYouTube = document.getElementById('youtube')
 const sBilibili = document.getElementById("bilibili");
-const sYingshi = document.getElementById("yingshi");
-const sWangpan = document.getElementById("wangpan");
+const sGugexueshu = document.getElementById("gugexueshu");
+const sZhongguozhiwang = document.getElementById("zhongguozhiwang");
+const s52pojie = document.getElementById("52pojie");
 const sFanyi = document.getElementById("fanyi");
 const sBijia = document.getElementById("bijia");
 
@@ -143,19 +144,27 @@ sBilibili.onclick =function () {
     doAction(p,n,s);
 }
 
-//YingShi
-sYingshi.onclick = function () {
-    p='http://ifkdy.com/?q=';
-    n='&p=1';
-    s='http://ifkdy.com/';
+//gugexueshu
+sGugexueshu.onclick = function () {
+    p='https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C33&q=';
+    n='&oq=';
+    s='https://scholar.google.com/';
     doAction(p,n,s);
 }
 
-//Wangpan
-sWangpan.onclick = function () {
-    p='http://www.panuso.com/s/';
-    n='.html';
-    s='http://www.panuso.com'
+//zhongguozhiwang
+sZhongguozhiwang.onclick = function () {
+    p='https://scholar.cnki.net/home/search?sw=1&sw-input=';
+    n='';
+    s='https://scholar.cnki.net/'
+    doAction(p,n,s);
+}
+
+//52pojie
+s52pojie.onclick = function () {
+    p='https://www.bing.com/search?q=site%3A52pojie.cn%20';
+    n='';
+    s='https://www.bing.com/search?q=site%3A52pojie.cn%20'
     doAction(p,n,s);
 }
 
